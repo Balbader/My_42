@@ -12,8 +12,8 @@ void    ft_print_alphabet(void)
     c = 97;
     while (c <= 122)
     {
-        ft_putchar(c);  // print char c
-        c++;            // increment c by 1
+        ft_putchar(c);
+        c++;
     } 
 }
 
