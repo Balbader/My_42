@@ -8,9 +8,8 @@ void    ft_putchar(char c)
 void    ft_print_numbers(void)
 {
     char    c;
-
+    
     c = 48;
-
     while(c <= 57)
     {
         ft_putchar(c);
