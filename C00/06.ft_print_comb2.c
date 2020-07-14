@@ -10,7 +10,6 @@ void    ft_print_comb2(void)
     int    b;
 
     a = 0;
-
     while (a <= 98)
     {
         b = a + 1;
@@ -37,30 +36,3 @@ int     main(void)
      ft_print_comb2();
      return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
