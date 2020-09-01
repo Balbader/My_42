@@ -3,12 +3,12 @@
 
 int     ft_atoi(char *str)
 {
-    int     n;
+    int     res;
     int     negative;
     int     i;
 
     negative = 0;
-    n = 0;
+    res = 0;
     i = 0;
     
     /* if str starts with an arbitrary amount of white-space chatacter */
@@ -23,10 +23,10 @@ int     ft_atoi(char *str)
 	/* if str is followed by number of the base 10 */
 	while (str[i] >= '0' && str[i] <= '9')
     	{
-		n = n * 10 + str[i] - 48;
+		res = res * 10 + str[i] - 48;
         	str++;
     	}
-    	return (negative * (n * -1));
+    	return (negative * (res * -1));
 }
 
 int     main(void)
