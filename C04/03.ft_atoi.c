@@ -4,7 +4,7 @@
 int     ft_atoi(char *str)
 {
     int     n;
-	int     negative;
+    int     negative;
     int     i;
 
     negative = 0;
@@ -22,12 +22,11 @@ int     ft_atoi(char *str)
 			negative = 1 - negative;
 	/* if str is followed by number of the base 10 */
 	while (str[i] >= '0' && str[i] <= '9')
-    {
+    	{
 		n = n * 10 + str[i] - 48;
-        str++;
-    }
-	
-    return (negative * (n * -1));
+        	str++;
+    	}
+    	return (negative * (n * -1));
 }
 
 int     main(void)
