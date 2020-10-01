@@ -1,0 +1,5 @@
+Credentials cache: API:C6B4BAE4-551A-464E-8268-C4314FEF036B
+        Principal: balbader@42.FR
+
+  Issued                Expires               Principal
+Sep  7 12:25:25 2020  Sep 14 12:25:09 2020  krbtgt/42.FR@42.FR
