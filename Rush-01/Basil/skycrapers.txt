@@ -1,0 +1,20 @@
+oc = outter cell
+ic = inner cell
+ir = inner row
+
+conditions :
+
+. oc = 4
+	ir = 1234
+
+. oc = 1
+	ic = 4
+
+. oc = 3
+	ic = 1 / 2
+
+. oc = 2
+	ic = 1 / 2 / 3
+
+
+
